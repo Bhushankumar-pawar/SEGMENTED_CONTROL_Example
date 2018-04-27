@@ -7,20 +7,21 @@ This is a widget for the [Alloy](http://projects.appcelerator.com/alloy/docs/All
 segmented control is a linear set of two or more segments, each of which functions as a mutually exclusive button. Within the control, all segments are equal in width. 
 
 # 3-Types of segmented control: 
-* borderSegment
-![Alt text](https://github.com/Bhushankumar-pawar/SEGMENTED_CONTROL_Example/blob/master/app/assets/image/borderSegment.png)
+</br>
 
+* borderSegment    
+![borderSegment](https://github.com/Bhushankumar-pawar/SEGMENTED_CONTROL_Example/blob/master/segmentedControle/app/assets/image/borderSegment.png)
+
+</br>
 </br>
 
 * flatSegment   
-![Alt text](https://github.com/Bhushankumar-pawar/SEGMENTED_CONTROL_Example/blob/master/app/assets/image/flatSegment.png)
-
-
+![flatSegment](https://github.com/Bhushankumar-pawar/SEGMENTED_CONTROL_Example/blob/master/segmentedControle/app/assets/image/flat_Segmet.png)
+</br>
 </br>
 
 * scrollingFlatSegments - Flat segment for more than 4 segments 
-
-![Alt text](https://github.com/Bhushankumar-pawar/SEGMENTED_CONTROL_Example/blob/master/app/assets/image/scrollingFlatSegments.png)
+![scrollingFlatSegments](https://github.com/Bhushankumar-pawar/SEGMENTED_CONTROL_Example/blob/master/segmentedControle/app/assets/image/scrolling_flat_segment.png)
 
 
 ## Installation and usage
@@ -34,7 +35,7 @@ $ gittio install BhushanP.SEGMENTED_CONTROL
 ###Manual method 
 
 * Download this repo (git clone / download zip)
-* Copy the widgets/com.skypanther.segmentedcontrol to your project's widgets folder
+* Copy the widgets to your project's widgets folder
 * Update your app/config.json to add:
 
 ```json
