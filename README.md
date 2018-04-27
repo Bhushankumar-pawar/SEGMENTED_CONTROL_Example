@@ -7,20 +7,20 @@ This is a widget for the [Alloy](http://projects.appcelerator.com/alloy/docs/All
 segmented control is a linear set of two or more segments, each of which functions as a mutually exclusive button. Within the control, all segments are equal in width. 
 
 # 3-Types of segmented control: 
-* borderSegment
-![Alt text](https://github.com/Bhushankumar-pawar/SEGMENTED_CONTROL_Example/blob/master/app/assets/image/borderSegment.png)
+* borderSegment     
+![borderSegment](https://github.com/Bhushankumar-pawar/SEGMENTED_CONTROL_Example/blob/master/segmentedControle/app/assets/image/borderSegment.png)
 
+</br>
 </br>
 
 * flatSegment   
-![Alt text](https://github.com/Bhushankumar-pawar/SEGMENTED_CONTROL_Example/blob/master/app/assets/image/flatSegment.png)
-
-
+![flatSegment](https://github.com/Bhushankumar-pawar/SEGMENTED_CONTROL_Example/blob/master/segmentedControle/app/assets/image/flat_Segmet.png)
+</br>
 </br>
 
 * scrollingFlatSegments - Flat segment for more than 4 segments 
+![scrollingFlatSegments](https://github.com/Bhushankumar-pawar/SEGMENTED_CONTROL_Example/blob/master/segmentedControle/app/assets/image/scrolling_flat_segment.png)
 
-![Alt text](https://github.com/Bhushankumar-pawar/SEGMENTED_CONTROL_Example/blob/master/app/assets/image/scrollingFlatSegments.png)
 
 
 ## Installation and usage
