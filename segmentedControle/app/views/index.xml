@@ -1,0 +1,13 @@
+<Alloy>
+	<Window class="container" id="mainWin" layout="vertical">
+		<View id="contentView" >
+			<View height="0dp"></View>
+			<View layout="vertical">
+				<Button class="buttonClass" top="25%" onClick="segmentControlClick">Segment Controle</Button>
+			<Button class="buttonClass" onClick="segmentControlV1Click">Segment Controle_V1</Button>
+			<Button class="buttonClass" onClick="segmentControlV2Click">Segment Controle_V2</Button>
+			</View>
+			
+		</View>
+	</Window>
+</Alloy>

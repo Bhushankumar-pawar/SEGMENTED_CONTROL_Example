@@ -1,0 +1,13 @@
+{
+	"id": "BhushanP.SEGMENTED_CONTROL",
+	"name": "BhushanP.SEGMENTED_CONTROL",
+	"description" : "",
+	"author": "",
+	"version": "1.0",
+	"copyright":"Copyright (c) 2017",
+	"license":"Public Domain",
+	"min-alloy-version": "1.9.11",
+	"min-titanium-version":"6.0",
+	"tags":"",
+	"platforms":"android,ios"
+}

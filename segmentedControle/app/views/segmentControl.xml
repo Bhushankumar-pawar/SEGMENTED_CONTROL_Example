@@ -1,0 +1,26 @@
+<Alloy>
+	<View class="container" layout="vertical"  >
+		<View top="0dp" height="12%"backgroundColor="#78909c" >
+			<View width="40dp" height="40dp" left="0%" top="35%" onClick="goToPreviousScreen" backgroundColor="#78909c" backgroundSelectedColor="#93a6af" zIndex="1">
+				<ImageView left="25%"    image= "/image/back.png" height="30dp" width="30dp" touchEnabled="false"/>
+			</View>
+			<Label top="40%">Border segments</Label>
+		</View>
+		<View id="segmentedView"  width="70%" top="10dp" height="35dp" backgroundColor="white">
+			<Widget id="topsegmentedControl" src="BhushanP.SEGMENTED_CONTROL"  />
+		</View>
+		<!-- Add Content views as per your segments -->
+		<ScrollableView id="topScrollableView" onScrollend="scrollEnd" top="10dp" height="100%" >
+			<View  height="100%" width="100%">
+				<ImageView height="100%" width="100%" image="/image/tj.jpg"></ImageView>
+			</View>
+			<View  height="100%" width="100%">
+				<ImageView height="100%" width="100%" image="/image/don.jpg"></ImageView>
+			</View>
+			<View  height="100%" width="100%">
+				<ImageView height="100%" width="100%" image="/image/ScoobyDoo.jpg"></ImageView>
+			</View>
+
+		</ScrollableView>
+	</View>
+</Alloy>

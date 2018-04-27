@@ -1,0 +1,28 @@
+".container": {
+	backgroundColor:"white"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+"#label": {
+	font: {
+		fontSize: 12
+	}
+}
+".buttonClass": {
+	backgroundColor: "#aebcc3",
+	height:"50dp",
+	width: "70%",
+	color: "black",
+	top:"5%",
+	borderColor: "black",
+	borderRadius: 10,
+	borderWidth: "1dp",
+	textAlign: "center",
+	bubbleParent  : "false",
+	backgroundSelectedColor:"#93a6af"
+}

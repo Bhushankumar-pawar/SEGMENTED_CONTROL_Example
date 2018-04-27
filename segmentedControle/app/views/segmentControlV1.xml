@@ -1,0 +1,29 @@
+<Alloy>
+	<View class="container" layout="vertical"  >
+		<View top="0dp" height="12%"backgroundColor="#78909c" >
+			<View width="40dp" height="40dp" left="0%" top="35%" onClick="goToPreviousScreen" backgroundColor="#78909c" backgroundSelectedColor="#93a6af" zIndex="1">
+				<ImageView left="25%"    image= "/image/back.png" height="30dp" width="30dp" touchEnabled="false"/>
+			</View>
+			<Label top="40%">Flat segments</Label>
+		</View>
+		<View id="segmentedView"  width="100%" top="10dp" height="35dp" backgroundColor="white">
+			<Widget id="topsegmentedControl" src="BhushanP.SEGMENTED_CONTROL"  />
+		</View>
+		<ScrollableView id="topScrollableView" onScrollend="scrollEnd"  height="100%" >
+
+			<View  height="100%" width="100%">
+				<ImageView height="100%" width="100%" image="/image/brave.jpg"></ImageView>
+			</View>
+			<View  height="100%" width="100%">
+				<ImageView height="100%" width="100%" image="/image/lion.jpg"></ImageView>
+			</View>
+			<View  height="100%" width="100%">
+				<ImageView height="100%" width="100%" image="/image/bb.jpg"></ImageView>
+			</View>
+			<View  height="100%" width="100%">
+				<ImageView height="100%" width="100%" image="/image/avtar.jpg"></ImageView>
+			</View>
+
+		</ScrollableView>
+	</View>
+</Alloy>
